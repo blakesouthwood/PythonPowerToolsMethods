@@ -60,6 +60,46 @@ def tack_on_end_of_list(listname, secondlist):
     return listname.extend(secondlist)
 
 
+
+
+# === string methods ===
+
+def cap_string(string):
+    word= str(string)
+    return word.capitalize()
+
+def clear_whitespaces(string):
+    string = string.strip()
+    newstring = string
+    return newstring
+
+def get_string_length(newstring):
+    return len(newstring)
+
+def make_lowercase(string):
+    return string.lower()
+
+def make_uppercase(string):
+    return string.upper()
+
+
+def find(word,string):    #find word in string ..... returns position it starts at
+    it = eval("string.find('" + word + "')")
+    print(it)
+
+
+    #convert a string into a list
+def string_to_list(string):
+    newlist = list(string.split(" "))
+    return newlist
+
+
+
+
+
+######################
+##    fizzbuzz      ##
+######################
 def fizzbuzz():
     fb = 1
     while fb <= 100:
@@ -85,8 +125,6 @@ def fizzbuzz():
             fb +=1
             continue
 
-
-# === string methods ===
 
 
 
