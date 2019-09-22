@@ -149,6 +149,31 @@ read_file('mypoem.text')
 #read file line by line
 
 
+# ======  Dictionary Methods  ============
+
+
+# enter the dictionary name and key name to get values
+def get_keys_value(d,k):       
+    x = eval("" + d + ".get('" + k +"')")
+    print(x)
+    return x;
+
+#example use
+get_keys_value("fish","brand")
+
+
+#get list of keys in dictionary name
+def get_keys_in(dictname):
+    allkeys = eval("list(" + dictname + ".keys())")
+    print(allkeys)
+    return allkeys
+
+#example use entering dictionary name
+get_keys_in("fish")
+get_keys_in("car")
+
+
+
 
 
 ######################
