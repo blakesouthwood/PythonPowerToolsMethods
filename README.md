@@ -7,8 +7,7 @@ and the methods sped up my programming speed dramatically.
 I am also a fan of verb based function names rather than RPN style of how built in functions
 (if they exist) are worded and I wanted to be able to reduce whole maticulous procedures into simple methods to save
 time and circumvent bugs (and to reduce how much code I write) which eats up precious time and throws me off track
-when I'm in the flow of writing code at a higher intent level rather than being incased in the boolean logic level
-at the level that the machine reads instructions. 
+when I'm in the flow of writing code (and thinking) at a higher intent level rather than being incased in the microscopic boolean logic level at the level that the machine reads instructions to the ALU. 
 
 So for the reasons above I have started making my Python Method Library that will eventually
 number in the thousands and I will build a gui and search engine with categories and use
