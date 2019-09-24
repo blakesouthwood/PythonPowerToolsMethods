@@ -1,5 +1,5 @@
 # PythonPowerToolsMethods
-Useful Methods to build readable Python code faster
+Useful Methods to build readable Python code faster.<br>
 I recently worked on a large JavaScript project and only near the end did I start
 making lots of little helpful methods to reduce bugs and add readability to the project
 and the methods sped up my programming speed dramatically.
