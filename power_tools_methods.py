@@ -9,6 +9,9 @@
 ##     Power Tool Methods For Python Version 1.0   ##
 #####################################################
 
+def swap(x,y):
+    return y,x
+
 # === list methods ===
 
 
@@ -153,7 +156,7 @@ read_file('mypoem.text')
 
 
 # enter the dictionary name and key name to get values
-def get_keys_value(d,k):       
+def get_keys_value(d,k):
     x = eval("" + d + ".get('" + k +"')")
     print(x)
     return x;
@@ -204,6 +207,13 @@ def fizzbuzz():
             fb +=1
             continue
 
+
+def fibonacci():
+    list1 = [0,1]
+    for item in range(20):
+        add = (list1[-1])+ (list1[-2]) #grab last 2 numbers
+        list1.append(add)              #append total to next slot
+        print(add);                    #show list
 
 
 
