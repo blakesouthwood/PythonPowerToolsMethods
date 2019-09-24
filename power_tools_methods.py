@@ -86,7 +86,7 @@ def make_uppercase(string):
     return string.upper()
 
 
-def find(word,string):    #find word in string ..... returns position it starts at
+def find_word_in_string(word,string):    #find word in string ..... returns position it starts at
     it = eval("string.find('" + word + "')")
     print(it)
 
