@@ -13,7 +13,7 @@ I discovered that it's much more practical and efficent to write above the sourc
 work closer to the human meaning level of thinking and intent and what something does rather than maticulously
 being chained to the tiny how to do something steps that the programming language affords. It's much easier
 to describe do something with methods then write a page of code of tiny how to steps which requires 50% of the time
-testing(debugging trivial bugs) all that "new" green code when it's faster and easier to reuse what already exists and has been tested. There is incredible redunancy of repeatedly writing fresh code(yet untested)  (rarely reused previously) to do tiny subtasks when it makes perfect sense to make a small method step (section of a function) to reduce the spelling errors, reduce thinking time, and increase the library of machine behaviors to get code working faster and yet the code is actually more readable. 
+testing(debugging trivial bugs) all that "new" green code when it's faster and easier to reuse what already exists and has been tested. There is incredible redunancy of repeatedly writing fresh code(yet untested)  (rarely reused previously) to do tiny subtasks when it makes perfect sense to make a small method step (section of a function) to reduce the spelling errors, reduce thinking time, and increase the library of machine behaviors to get code working faster (and reduce bugs) and yet the code is actually more readable. 
 
 
 So for the reasons above I have started making my Python Method Library that will eventually
