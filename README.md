@@ -19,3 +19,12 @@ testing(debugging trivial bugs) all that "new" green code when it's faster and e
 So for the reasons above I have started making my Python Method Library that will eventually
 number in the thousands and I will build a gui and search engine with categories and use
 frequency of use analysis to combine many together to gain even more speed.
+
+The important aspect is that Fred Brooks said that the only ways known to definitely write software faster is
+to use high level langauges and reuse code and interative programming. I'm trying to implement his teachings from
+the Mythical Man Month coupled (eventually) with Literate programming invented by Don Knuth at Stanford. Tony Hoare
+also wrote a famous paper on High Level Language Design and harped on readability for humans and to use levels.
+Tony Hoare mentioned the importance of a good Standard Library. Though coming down the pipe JavaScript has one coming
+and currently Python has many Standard Libraries I'm trying to make Python more friendly for the millions that will
+soon be emersed in Python coding. In David Flanigan's book "The Definitive Guide of JavaScript" he stressed the 
+importance of a good Standard Library.
