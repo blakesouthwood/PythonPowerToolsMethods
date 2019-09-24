@@ -9,6 +9,13 @@ I am also a fan of verb based function names rather than RPN style of how built 
 time and circumvent bugs (and to reduce how much code I write) which eats up precious time and throws me off track
 when I'm in the flow of writing code (and thinking) at a higher intent level rather than being incased in the microscopic boolean logic level at the level that the machine reads instructions in the ALU in binary. 
 
+I discovered that it's much more practical and efficent to write above the source code level with methods to
+work closer to the human meaning level of thinking and intent and what something does rather than maticulously
+being chained to the tiny how to do something steps that the programming language affords. It's much easier
+to describe do something with methods then write a page of code of tiny how to steps which requires 50% of the time
+testing all that "new" green code when it's faster and easier to reuse what already exists and has been tested. There is incredible redunancy of repeatedly writing fresh code(yet untested)  (rarely reused previously) to do tiny subtasks when it makes perfect sense to make a small method step (section of a function) to reduce the spelling errors, reduce thinking time, and increase the library of machine behavior to get code working faster and yet the code is actually more readable. 
+
+
 So for the reasons above I have started making my Python Method Library that will eventually
 number in the thousands and I will build a gui and search engine with categories and use
 frequency of use analysis to combine many together to gain even more speed.
