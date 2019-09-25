@@ -203,6 +203,11 @@ def fizzbuzz():
 ##          math equations
 ##========================================
 
+
+#=======================================================
+#          fibonacci series found everywhere in nature
+#=======================================================
+
 def fibonacci():
     list1 = [0,1]
     for item in range(20):               #change number in range for big numbers
