@@ -205,7 +205,7 @@ def fibonacci():
 
 
 ##========================================
-##          math correlation r
+##          math equations
 ##========================================
 
 from math import *
