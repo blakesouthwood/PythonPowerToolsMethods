@@ -195,18 +195,21 @@ def fizzbuzz():
             print('fizz');fb +=1;       continue
 
 
-def fibonacci():
-    list1 = [0,1]
-    for item in range(20):               #change number in range for big numbers
-        add = (list1[-1])+ (list1[-2])   #grab last 2 numbers
-        list1.append(add)                #append total to next slot
-        print(add);                      #show list
+
 
 
 
 ##========================================
 ##          math equations
 ##========================================
+
+def fibonacci():
+    list1 = [0,1]
+    for item in range(20):               #change number in range for big numbers
+        add = (list1[-1])+ (list1[-2])   #grab last 2 numbers
+        list1.append(add)                #append total to next slot
+        print(add);                      #show list
+        
 
 from math import *
 #sample input data lists of x and y
