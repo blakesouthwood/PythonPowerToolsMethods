@@ -185,35 +185,22 @@ get_keys_in("car")
 def fizzbuzz():
     fb = 1
     while fb <= 100:
-
-        if (fb % 3 != 0) and (fb % 5 != 0):
-            print
-            print(fb)
-            fb += 1
-            continue
-
-        elif (fb % 3 == 0) and (fb  % 5 == 0) :
-            print("fizzbuzz") # the number of course
-            fb += 1
-            continue
-
+        if (fb % 3 != 0) and  (fb % 5 != 0):
+            print(fb); fb += 1;         continue
+        elif (fb % 3 == 0) and(fb % 5 == 0):
+            print("fizzbuzz"); fb += 1; continue
         elif (fb % 5 == 0):
-            print('buzz') # by 5
-            fb +=1
-            continue
-
-        elif (fb % 3 == 0) :
-            print('fizz') #by 3
-            fb +=1
-            continue
+            print('buzz');fb +=1;       continue
+        elif (fb % 3 == 0):
+            print('fizz');fb +=1;       continue
 
 
 def fibonacci():
     list1 = [0,1]
-    for item in range(20):
-        add = (list1[-1])+ (list1[-2]) #grab last 2 numbers
-        list1.append(add)              #append total to next slot
-        print(add);                    #show list
+    for item in range(20):               #change number in range for big numbers
+        add = (list1[-1])+ (list1[-2])   #grab last 2 numbers
+        list1.append(add)                #append total to next slot
+        print(add);                      #show list
 
 
 
@@ -227,7 +214,7 @@ listx = [4,44,95,33,61,43,55,5,48,59]
 listy = [22,97,57,51,3,66,77,24,18,163]
 
 #===============================
-#         def  correlation
+#          correlation
 #===============================
 def correlation(listx, listy):
     print("number of pairs compared ",len(listx))
