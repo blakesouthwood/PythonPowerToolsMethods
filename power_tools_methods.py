@@ -221,6 +221,12 @@ from math import *
 listx = [4,44,95,33,61,43,55,5,48,59]
 listy = [22,97,57,51,3,66,77,24,18,163]
 
+##====== sq ==================
+#============ square a number
+def sq(x):
+    return x * x 
+
+
 #===============================
 #          correlation
 #===============================
@@ -233,8 +239,8 @@ def correlation(listx, listy):
     i = 0
     while i < s:  #loop through length of list of x and y
         xy.append(listx[i] * listy[i])
-        x2.append(listx[i] * listx[i])
-        y2.append(listy[i] * listy[i])
+        x2.append(sq(listx[i]))
+        y2.append(sq(listy[i]))
         i += 1
     #end while
 
@@ -250,8 +256,8 @@ def correlation(listx, listy):
 
     #calculations
     c1 = (s * sum_xy) - (sum_x * sum_y)
-    c2 = (s * sum_x2) - (sum_x * sum_x)
-    c3 = (s * sum_y2) - (sum_y * sum_y)
+    c2 = (s * sum_x2) - sq(sum_x) 
+    c3 = (s * sum_y2) - sq(sum_y)
     c4 = sqrt(c2 * c3); ans = c1 / c4
     print("correlation =", ans)
 
