@@ -110,6 +110,36 @@ print(replace_words("eggs","cream of wheat"))
 
 
 
+#============ loop  ================
+# still uses range() method but makes it more intuitive
+# the built in method range() doesn't work as expected
+# so a modified myrange(7) counts 0 - 7
+# with one input argument
+'''
+for item in myrange(6):        #prints out 0 - 6
+    print(item)
+'''
+#######################
+##     myrange(x)
+#######################
+def myrange(x):
+   return range(x+1)
+
+
+# with 2 input arguments myrange2(1,7) counts 1 - 7
+'''
+for item in myrange2(1,7):       #prints out 1 - 7
+    print(item)
+'''
+#######################
+##     myrange2(x,y)
+#######################
+def myrange2(x,y):
+   return range(x,y+1)
+
+
+
+
 #===========  file methods   ==========
 
 poem = """in the history of events
@@ -214,7 +244,7 @@ def fibonacci():
         add = (list1[-1])+ (list1[-2])   #grab last 2 numbers
         list1.append(add)                #append total to next slot
         print(add);                      #show list
-        
+
 
 from math import *
 #sample input data lists of x and y
@@ -224,7 +254,7 @@ listy = [22,97,57,51,3,66,77,24,18,163]
 ##====== sq ==================
 #============ square a number
 def sq(x):
-    return x * x 
+    return x * x
 
 
 #===============================
@@ -256,7 +286,7 @@ def correlation(listx, listy):
 
     #calculations
     c1 = (s * sum_xy) - (sum_x * sum_y)
-    c2 = (s * sum_x2) - sq(sum_x) 
+    c2 = (s * sum_x2) - sq(sum_x)
     c3 = (s * sum_y2) - sq(sum_y)
     c4 = sqrt(c2 * c3); ans = c1 / c4
     print("correlation =", ans)
@@ -265,6 +295,7 @@ def correlation(listx, listy):
 correlation(listx,listy)
 
 
+6
 
 
 
