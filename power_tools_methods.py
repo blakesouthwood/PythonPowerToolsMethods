@@ -12,6 +12,15 @@
 def swap(x,y):
     return y,x
 
+def myswap(x,y):
+    a = x; b = y
+    del x; del y
+    x = b; y = a
+    print(x,y)
+
+myswap(25,36);
+myswap(10,120)
+
 # === list methods ===
 
 
@@ -55,6 +64,7 @@ def get_pos_of_word(word, listname):
     for item in listname:
         if item == word:
             return mycounter
+            break
         else:
             mycounter += 1
             continue
@@ -122,8 +132,14 @@ for item in myrange(6):        #prints out 0 - 6
 #######################
 ##     myrange(x)
 #######################
-def myrange(x):
-   return range(x+1)
+'''
+ so if myrange(10) it prints from 0 to 10
+'''
+def myrange(x):  #still starts counting from 0
+    return range(x+1)
+
+
+
 
 
 # with 2 input arguments myrange2(1,7) counts 1 - 7
@@ -136,6 +152,8 @@ for item in myrange2(1,7):       #prints out 1 - 7
 #######################
 def myrange2(x,y):
    return range(x,y+1)
+
+
 
 
 
@@ -153,7 +171,7 @@ def write_to_file(name,words):
     file.write(words)
     file.close()
 
-write_to_file('mypoem.text',poem)
+#write_to_file('mypoem.text',poem)
 
 
 # append data to file
@@ -164,7 +182,7 @@ def append_file(name,morewords):
 
 morewords = "just a little something new"
 
-append_file('mypoem.text',morewords)
+#append_file('mypoem.text',morewords)
 
 
 #read a file
@@ -178,7 +196,7 @@ def read_file(name):
     file.close()
 
 
-read_file('mypoem.text')
+#read_file('mypoem.text')
 #read file line by line
 
 
@@ -192,7 +210,7 @@ def get_keys_value(d,k):
     return x;
 
 #example use
-get_keys_value("fish","brand")
+#get_keys_value("fish","brand")
 
 
 #get list of keys in dictionary name
@@ -202,8 +220,8 @@ def get_keys_in(dictname):
     return allkeys
 
 #example use entering dictionary name
-get_keys_in("fish")
-get_keys_in("car")
+#get_keys_in("fish")
+#get_keys_in("car")
 
 
 
@@ -295,7 +313,7 @@ def correlation(listx, listy):
 correlation(listx,listy)
 
 
-6
+
 
 
 
