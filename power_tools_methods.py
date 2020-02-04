@@ -72,8 +72,33 @@ def get_pos_of_word(word, listname):
 def tack_on_end_of_list(listname, secondlist):
     return listname.extend(secondlist)
 
+#==============================================
+#function called on each item in a list inside of for_each loop
+
+newlist=[]
+mystring = "Now is the time to begin the battle";
+
+#   for_each(function name, list name)
+#   FOR_EACH()
+
+def for_each(myfunc,thelist):           #function name and list
+    for item in thelist:
+        myfunc(item);
+    print("the newlist =",newlist);
+
+# name of custom function in your for_each()
+def myfunc(item):
+    print(item + 'y')
+    newlist.append(item + 'y')
 
 
+
+
+
+smarty = mystring.split()
+for_each(myfunc,smarty);
+
+#==============================================
 
 # === string methods ===
 
