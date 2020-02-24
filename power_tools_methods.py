@@ -142,6 +142,40 @@ def replace_words(string1,string2):
 print(replace_words("eggs","cream of wheat"))
 
 
+# //  =========================================
+
+
+mystring = "Starbucks has good coffee.";
+
+##################################################################
+##### function put_string_into_list ##############################
+##################################################################
+'''
+what this does is takes a sentence and put it word by word
+into a list separated with commas and each word in quotes
+this is a useful technique
+
+'''
+def put_string_into_list(thestring):
+    smarty = eval('thestring.split()')                                #uses split() method after string
+    print()
+    
+    print("string=",mystring)
+    print("parsed sentence = ", smarty);                      #that worked GREAT great feeling victory
+    location = 0
+    for word in smarty:
+        print("location =",location," ",word,)
+        location += 1
+    print()
+
+put_string_into_list(mystring);
+
+
+
+
+
+
+
 
 
 
@@ -338,7 +372,7 @@ def correlation(listx, listy):
 correlation(listx,listy)
 
 
-
+## ////=====================
 
 
 
