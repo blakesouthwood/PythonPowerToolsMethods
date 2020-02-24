@@ -159,7 +159,7 @@ this is a useful technique
 def put_string_into_list(thestring):
     smarty = eval('thestring.split()')                                #uses split() method after string
     print()
-    
+
     print("string=",mystring)
     print("parsed sentence = ", smarty);                      #that worked GREAT great feeling victory
     location = 0
@@ -167,6 +167,7 @@ def put_string_into_list(thestring):
         print("location =",location," ",word,)
         location += 1
     print()
+    return smarty #this returns the list made up of the string's words
 
 put_string_into_list(mystring);
 
